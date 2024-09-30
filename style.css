@@ -1,0 +1,146 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image:url(./images/pexels-vlad-fonsark-2175898-9817667.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+h1 {
+    margin: 0;
+}
+
+.search-section {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.about-section {
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.about-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6b35; /* Bus reservation system theme color */
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+.about-section ul li::before {
+    content: "\2022"; /* Bullet point */
+    font-size: 2em;
+    color: #ff6b35;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.about-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
