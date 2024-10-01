@@ -18,7 +18,7 @@ if (isset($_POST['book'])) {
 
 <html>
 <head>
-    <title>Book a Seat</title>
+    <title>Book aa Seat</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
