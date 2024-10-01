@@ -22,7 +22,7 @@
 
 
     <section class="search-section">
-        <h2>Search for Buses</h2>
+        <h2>Search for Buuses</h2>
         <form id="searchForm" action="searchbuses.php" method="POST">
             <label for="origin">Origin:</label>
             <input list="originOptions" id="origin" name="origin" required>
